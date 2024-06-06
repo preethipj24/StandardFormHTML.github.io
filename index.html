@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="message.html">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name"> <br> <br>
+
+                <label for="date">DOB</label>
+                <input type="date" id="date"> <br> <br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email"> 
+                
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Educational Details</legend>
+
+            <label for="">Department</label> <br>
+
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">CS</label>
+
+            
+            <input type="radio" id="ec" name="dept">
+            <label for="ec">EC</label>
+
+            
+            <input type="radio" id="civil" name="dept">
+            <label for="civil">CIVIL</label>
+
+            
+            <input type="radio" id="mech" name="dept">
+            <label for="mech">MECH</label>  <br> <br>
+
+            <label for="">Year of graduation</label>
+
+            <input list="yog">
+            <datalist id="yog">
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+
+            </datalist>
+
+            <br> <br>
+
+            <label for="">Skills</label> <br> 
+
+            <input type="checkbox" name="" id="html">
+            <label for="html">HTML</label> <br>
+
+            <input type="checkbox" name="" id="css">
+            <label for="css">CSS</label> 
+
+        </fieldset>
+
+        <input type="submit" value="Login">
+
+
+
+
+
+    </form>
+</body>
+</html>
